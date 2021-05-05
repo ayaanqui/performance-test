@@ -63,7 +63,7 @@ public class ThreadPool {
     }
 
     private static void printTime(final long timeElapsed) {
-        System.out.println(String.format("\n%dms\n", timeElapsed));
+        System.out.println(String.format("\n%dms", timeElapsed));
     }
 
     public static void main(String[] args) {
